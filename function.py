@@ -29,5 +29,7 @@ def alien_attack_game():
     print("Your battery is dead please change the battery")
 
     print("Mission completed")
-alien_attack_game()
 
+
+
+alien_attack_game()
