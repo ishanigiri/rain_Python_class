@@ -30,6 +30,5 @@ def alien_attack_game():
 
     print("Mission completed")
 
-
-
 alien_attack_game()
+

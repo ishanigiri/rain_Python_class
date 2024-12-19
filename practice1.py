@@ -47,3 +47,57 @@ def alien_attack_game():
     print("Mission completed")
 
 alien_attack_game()
+
+
+def sum(*args):
+    result = 0
+    for number in args:
+        result += number
+    return result
+
+def diff(a,b):
+    return a-b 
+def mul(a,b):
+    return a*b 
+def div(a,b):
+    return a/b 
+
+print(sum(1,2,3,4,5))
+
+
+def mul(*args):
+    result = 0
+    for number in args:
+        result *= number
+    return result
+
+def diff(a,b):
+    return a-b 
+def mul(a,b):
+    return a*b 
+def div(a,b):
+    return a/b 
+def exponential():
+    pass
+def print_name(name="Ishani"):
+    print(f"Hello {name}")
+
+print(mul(4,5))
+print_name()
+print_name("Alisha")
+
+
+def print_full_name(**kwargs):
+    print(kwargs)
+    print(f"My full name is {kwargs["first_name"]} {kwargs["last_name"]}")
+print_full_name(first_name="Ishani", last_name="Giri", middle_name="None")
+
+
+def print_result(*args, **kwargs):
+    print(args)
+    print(kwargs)
+    result = 0
+    for number in args:
+        result += number
+    print(f"My full name is {kwargs["first_name"]} {kwargs["last_name"]} and total marks = {result}")
+print_result(10,20,30,40,50, first_name="Ishani", last_name="Giri")
