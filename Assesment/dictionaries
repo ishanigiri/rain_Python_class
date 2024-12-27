@@ -1,0 +1,11 @@
+my_dict = {"name": "John", "age": 25, "city": "New York"}
+print("Step 1 = Initial dictionary:", my_dict)
+my_dict["job"] = "Engineer"
+print("Step 2 = After adding job:", my_dict)
+my_dict["age"] = 26
+print("Step 3 = After updating age:", my_dict)
+del my_dict["city"]
+print("Step 4 = After removing city:", my_dict)
+print("Step 5 = All keys:", my_dict.keys())
+print("Step 6 = All values:", my_dict.values())
+print("Step 7 = Final dictionary:", my_dict)
